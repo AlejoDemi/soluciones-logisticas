@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.header {
+  top: 0;
+  position: sticky;
+  width: 100%;
+  z-index: 50;
+  background-color: #23272f;
+  display: flex;
+  justify-content: space-around;
+  height: 70px;
+  opacity: 0.9;
+  align-items: center;
+}
+
+.header .logo {
+  font-family: Righteous;
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+
+  /* Create a gradient background for the text */
+  background-clip: text;
+  -webkit-background-clip: text; /* For older webkit browsers */
+  color: transparent; /* Make the text transparent */
+
+  /* Define your gradient background */
+  background-image: linear-gradient(45deg, #62d133, #ffc300);
+}
+
+.header .buttons {
+  display: flex;
+  text-align: center;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.buttons .button {
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  height: 70%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.buttons .button:hover {
+  background-color: #3a3d41;
+}
+
+@media (min-width: 720px) {
+  .header {
+    justify-content: space-between;
+  }
+
+  .header .logo {
+    margin-left: 50px;
+  }
+
+  .header .buttons {
+    margin-right: 20px;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.frontPage-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.frontPage-container .logo {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Righteous;
+    font-size: 15rem;
+    font-weight: bold;
+  
+    /* Create a gradient background for the text */
+    background-clip: text;
+    -webkit-background-clip: text; /* For older webkit browsers */
+    color: transparent; /* Make the text transparent */
+  
+    /* Define your gradient background */
+    background-image: linear-gradient(45deg, #62d133, #FFC300);
+  }
+  
+
+.frontPage-container .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.frontPage-container .text {
+  padding: 10px;
+  font-size: 17px;
+}
+
+@media (min-width: 1000px) {
+  .frontPage-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .frontPage-container .logo {
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .frontPage-container .title-and-text {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    width: 80%;
+  }
+
+  .title-and-text .title {
+    font-size: 52px;
+    font-weight: 400;
+  }
+
+  .frontPage-container .text {
+    padding: 10px;
+  }
+}

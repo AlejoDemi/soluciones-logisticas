@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.87e84e2e.css",
+    "main.js": "/static/js/main.69b5c60e.js",
+    "static/js/787.538446a9.chunk.js": "/static/js/787.538446a9.chunk.js",
+    "static/media/avatar.png": "/static/media/avatar.1efc28a8e4ea2dd8f6af.png",
+    "static/media/portada.png": "/static/media/portada.cde629a3fd3d82ab3561.png",
+    "static/media/gestion.png": "/static/media/gestion.5043605c17adbe637903.png",
+    "static/media/seguridad.png": "/static/media/seguridad.747bb5450770746251fd.png",
+    "static/media/consultoria.png": "/static/media/consultoria.a2e63ddd64dbcbb98c4c.png",
+    "index.html": "/index.html",
+    "main.87e84e2e.css.map": "/static/css/main.87e84e2e.css.map",
+    "main.69b5c60e.js.map": "/static/js/main.69b5c60e.js.map",
+    "787.538446a9.chunk.js.map": "/static/js/787.538446a9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87e84e2e.css",
+    "static/js/main.69b5c60e.js"
+  ]
+}

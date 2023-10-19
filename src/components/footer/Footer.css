@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+.footer {
+  display: flex;
+  height: 300px;
+  background-color: #1c1f26;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-info .contact-title {
+  font-size: 2rem;
+  font-weight: 50;
+}
+
+.contact-info .contact-data {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contact-data .data {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+@media (min-width: 1000px) {
+  .contact-info .contact-title {
+    text-align: center;
+  }
+
+  .contact-info .contact-data {
+    flex-direction: row;
+    gap: 50px;
+  }
+}
