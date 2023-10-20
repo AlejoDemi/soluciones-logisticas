@@ -1,41 +1,61 @@
 import './Characteristics.css';
-import avatar from '../../assets/avatar.png';
+import camion from '../../assets/camion.png';
+import container from '../../assets/container.png';
+import hombres from '../../assets/hombres.png';
 
 export const Characteristics = () => {
   return (
     <div className="characteristics-container">
-      <div className="title-image">
-        <div className="title">Quiénes somos</div>
-        <div className="image-container">
-          <img src={avatar} alt="foto" />
-        </div>
-      </div>
+      <div className="title">¿Por qué elegirnos?</div>
       <div className="characteristics">
+
         <div className="info-box">
-          <div className="info-title">Análisis y Consultoría:</div>
-          <div className="info-text">
-            Analizamos tu empresa en profundidad para entender tus necesidades y
-            recomendarte las soluciones tecnológicas más apropiadas. Nuestros
-            consultores altamente capacitados te guiarán en cada paso del
-            proceso.
+          <div className="image">
+            <img src={camion} alt="" />
+          </div>
+          <div className="text-info">
+          <div className="info-title">Gestión Eficaz :</div>
+            <div className="info-text">
+              Nuestra virtud principal radica en una gestión logística
+              excepcional. Con un enfoque metódico y preciso, coordinamos cada
+              paso de la cadena de suministro, asegurando una administración
+              óptima de tus productos. Nuestra experiencia en logística se
+              traduce en una planificación estratégica que maximiza la
+              eficiencia y minimiza los contratiempos.
+            </div>
           </div>
         </div>
-        <div className="info-box">
-          <div className="info-title">Desarrollo e Implementación:</div>
-          <div className="info-text">
-            Desarrollamos soluciones a medida que se adaptan a tu empresa y la
-            impulsan hacia el éxito. Nos encargamos de la implementación
-            eficiente y efectiva para que puedas disfrutar de los beneficios
-            rápidamente.
+
+        <div className="info-box-reverse">
+          <div className="text-info">
+            <div className="info-title">Calidad Inquebrantable:</div>
+            <div className="info-text">
+              La calidad es el núcleo de nuestro compromiso. Cada proceso y
+              servicio que ofrecemos se ejecuta con los más altos estándares de
+              calidad. Nuestra dedicación a la integridad de tus productos, así
+              como a la satisfacción del cliente, garantiza que nuestros
+              servicios de logística cumplan y superen tus expectativas.
+            </div>
+          </div>
+          <div className="image">
+            <img src={container} alt="" />
           </div>
         </div>
+
         <div className="info-box">
-          <div className="info-title">Soporte Postventa:</div>
-          <div className="info-text">
-            Nuestro compromiso no termina con la implementación. Ofrecemos un
-            soporte postventa dedicado y eficaz para asegurarnos de que tu
-            solución tecnológica funcione de manera óptima y esté alineada con
-            tus objetivos.
+          <div className="image">
+            <img src={hombres} alt="" />
+          </div>
+          <div className="text-info">
+            <div className="info-title">Velocidad de Entrega:</div>
+            <div className="info-text">
+              La velocidad de entrega es esencial en la logística moderna, y es
+              una de nuestras principales virtudes. Nuestros sistemas
+              optimizados y flota de camiones eficiente nos permiten garantizar
+              entregas rápidas y puntuales. En un mundo donde cada minuto
+              cuenta, puedes confiar en nosotros para cumplir tus plazos y
+              mantener tus operaciones en movimiento.
+            </div>
           </div>
         </div>
       </div>

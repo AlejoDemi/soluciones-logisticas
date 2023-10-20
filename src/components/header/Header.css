@@ -5,7 +5,8 @@
   position: sticky;
   width: 100%;
   z-index: 50;
-  background-color: #23272f;
+  background-color: #094C69;
+  color: #D9D9D9;
   display: flex;
   justify-content: space-around;
   height: 70px;
@@ -14,18 +15,16 @@
 }
 
 .header .logo {
-  font-family: Righteous;
+  height: 80px;
+  width: 80px;
   display: flex;
-  font-size: 3rem;
-  font-weight: bold;
+  justify-content: center;
+}
 
-  /* Create a gradient background for the text */
-  background-clip: text;
-  -webkit-background-clip: text; /* For older webkit browsers */
-  color: transparent; /* Make the text transparent */
-
-  /* Define your gradient background */
-  background-image: linear-gradient(45deg, #62d133, #ffc300);
+.logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 
 .header .buttons {
@@ -59,8 +58,18 @@
   }
 
   .header .logo {
-    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
   }
+  
+  .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
 
   .header .buttons {
     margin-right: 20px;

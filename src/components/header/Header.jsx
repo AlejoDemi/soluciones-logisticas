@@ -1,10 +1,13 @@
 import './Header.css';
 import { Link } from 'react-scroll';
+import logo from "../../assets/logo_SL.png"
 
 export const Header = () => {
   return (
     <div className="header">
-      <div className="logo">b</div>
+      <div className="logo">
+        <img src={logo} alt="" />
+      </div>
       <div className="buttons">
         <div className="button">
           <Link
